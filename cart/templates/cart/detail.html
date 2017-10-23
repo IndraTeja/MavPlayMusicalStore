@@ -23,8 +23,7 @@
           <tr>
             <td>
               <a href="{{ product.get_absolute_url }}">
-                <img src="{% if product.image %}{{ product.image.url
-}}{% else %}{% static "img/no_image.png" %}{% endif %}">
+                <img src="{% if product.image %}{{ product.image.url}}{% else %}{% static "img/no_image.png" %}{% endif %}">
               </a>
             </td>
             <td>{{ product.name }}</td>
@@ -36,8 +35,7 @@
                 {% csrf_token %}
               </form>
             </td>
-            <td><a href="{% url "cart:cart_remove" product.id
-%}">Remove</a></td>
+            <td><a href="{% url "cart:cart_remove" product.id%}">Remove</a></td>
             <td class="num">${{ item.price }}</td>
             <td class="num">${{ item.total_price }}</td>
           </tr>
@@ -51,10 +49,11 @@
     </tbody>
   </table>
   <p class="text-right">
-    <a href="{% url "mavMusicBlog:product_list" %}" class="button
-light">Continue shopping</a>
-       <a href="{% url "orders:order_create" %}" class="button">
-         Checkout
-       </a>
+    
+
+    <a href="{% url "mavMusicBlog:product_list" %}" class="button light">Continue shopping</a>
+    <a href="{% url "orders:order_create" %}" class="button">
+      Checkout
+    </a>
   </p>
 {% endblock %}
