@@ -20,6 +20,7 @@ from django.conf import settings
 
 urlpatterns = [
     url(r'^admin/', admin.site.urls),
+    url(r'^cart/', include('cart.urls', namespace='cart')),
     url(r'', include('mavMusicBlog.urls', namespace='mavMusicBlog')),
 
    ]
