@@ -21,7 +21,7 @@ def order_create(request):
             # clear the cart
             cart.clear()
             # launch asynchronous task
-            order_created.delay(order.id)
+            # order_created.delay(order.id)
            # set the order in the session
             request.session['order_id'] = order.id
            # redirect to the payment
@@ -35,3 +35,4 @@ def order_create(request):
 def admin_order_detail(request, order_id):
     order = get_object_or_404(Order, id=order_id)
     return render(request, 'admin/orders/order/detail.html', {'order': order})
+
