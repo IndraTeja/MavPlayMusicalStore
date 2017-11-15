@@ -83,10 +83,10 @@ WSGI_APPLICATION = 'mavMusic.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql',
-        'NAME': 'd6t026sguufi0c',
-        'USER': 'twmrhsjokmheyr',
-        'PASSWORD': '618fcd18f661f6352ab824739c40fc846acfcf87ba4ecc49e94081b62d7783e5',
-        'HOST': 'ec2-54-243-47-252.compute-1.amazonaws.com',
+        'NAME': 'd9u9j4bokka3fb',
+        'USER': 'kctvkvrzmebxwq',
+        'PASSWORD': '867f6212ac9de30e87f69a88c0d958df70460ac3b7b5340e046a1a657b3db08f',
+        'HOST': 'ec2-54-235-65-224.compute-1.amazonaws.com',
         'PORT': '5432',
 
         # 'ENGINE': 'django.db.backends.sqlite3',
