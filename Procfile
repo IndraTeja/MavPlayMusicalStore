@@ -1,0 +1,1 @@
+web: gunicorn mavMusic.wsgi --log-file -
