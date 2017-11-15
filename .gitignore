@@ -1,0 +1,8 @@
+# Created by .ignore support plugin (hsz.mobi)
+.gitignore
+.idea
+.git
+db.sqlite3
+*.pyc
+__pycache__
+local_settings.

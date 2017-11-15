@@ -39,6 +39,9 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'mavMusicBlog',
     'cart',
+    'orders',
+    'payment',
+    'paypal.standard.ipn',
 ]
 
 MIDDLEWARE = [
@@ -125,3 +128,13 @@ MEDIA_URL = '/media/'
 MEDIA_ROOT = os.path.join(BASE_DIR, 'media/')
 
 CART_SESSION_ID = 'cart'
+
+EMAIL_HOST = 'smtp.mailtrap.io'
+EMAIL_HOST_USER = '84ef3300c6551b'
+EMAIL_HOST_PASSWORD = 'd674e72ef0f240'
+EMAIL_PORT = 465
+EMAIL_USE_TLS = True
+
+# django-paypal settings
+PAYPAL_RECEIVER_EMAIL = 'isdfall2017team1@gmail.com'
+PAYPAL_TEST = True
