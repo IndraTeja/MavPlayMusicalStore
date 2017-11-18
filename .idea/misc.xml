@@ -1,11 +1,4 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-<<<<<<< HEAD
   <component name="ProjectRootManager" version="2" project-jdk-name="Python 3.6.0 (C:\Program Files\Python36\python.exe)" project-jdk-type="Python SDK" />
-  <component name="PythonCompatibilityInspectionAdvertiser">
-    <option name="version" value="2" />
-  </component>
-=======
-  <component name="ProjectRootManager" version="2" project-jdk-name="Python 3.6.2 (/Library/Frameworks/Python.framework/Versions/3.6/bin/python3.6)" project-jdk-type="Python SDK" />
->>>>>>> 2d57fb271b2b9382464ad02e6ee075ab9e436d70
 </project>
