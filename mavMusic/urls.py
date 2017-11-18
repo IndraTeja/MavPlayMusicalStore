@@ -39,5 +39,5 @@ if settings.DEBUG:
     urlpatterns += [
         url(r'^media/products(?P<path>.*)$', serve, {
             'document_root': settings.MEDIA_ROOT,
-        }),staticfiles_urlpatterns(),
+        }),
     ]
