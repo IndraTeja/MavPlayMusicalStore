@@ -9,7 +9,8 @@ This application will be developed in Python-Django. The purpose of having this 
 
 This will help our team understand the technology involved in Python-Django and work on Agile methodology to deliver the project.
 
-Our team – MavPlay shall be collating the business requirements and developing the project to aid the community.
+Our team – MavPlay shall be collating the business requirements and developing the project to aid the community. The community can buy the products from our web application at a discounted price.
+
 The Project shall be effective from September 13th, 2017 to December 6th,2017
 
 Collaborators for this project -
