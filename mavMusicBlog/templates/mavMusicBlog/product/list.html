@@ -21,7 +21,11 @@
         <div id="main" class="product-list">
             <h1>{% if category %}
                 {{category.name }}
-                {% else %}Products{% endif%}</h1>
+                {% else %} Musical Instruments {% endif%}</h1>
+
+              <!--   <input style="width: 100%;" type="text" id="myInput"
+               onkeyup="myFunction()" placeholder="Search for hospital.." title="Type in a name"> -->
+
             {% for product in products %}
 
                 <div class="item">
@@ -36,4 +40,7 @@
                 </div>
             {% endfor %}
         </div>
+
+
+
 {% endblock %}
